@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Fruitzzz</string>
+
+    <string name="desc_one">Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. Vitae, praesent augue \nelementum diam convallis. Tempus \nporttitor et id quam risus at. \nPellentesque mattis proin quis quis.</string>
+    <string name="desc_two">Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. Vitae, praesent augue \nelementum diam convallis. Tempus \nporttitor et id quam risus at. \nPellentesque mattis proin quis quis.</string>
+    <string name="desc_three">Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. Vitae, praesent augue \nelementum diam convallis. Tempus \nporttitor et id quam risus at. \nPellentesque mattis proin quis quis.</string>
+
+
+    <string name="header_one">Friends with acacas</string>
+    <string name="header_two">Make Your Day Healthy</string>
+    <string name="header_three">Track Your Health Now</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="auth_desc">Lorem ipsum dolor sit amet, consectetur \nadipiscing elit. Vitae, praesent augue \nelementum diam convallis. Tempus \nporttitor et id quam risus at. \nPellentesque mattis proin quis quis.
+    praesent augue elementum diam convallis. Tempus porttitor et id quam risus at. Pellentesque mattis proin quis quis.
+    praesent augue elementum diam convallis. Tempus porttitor et id quam risus at. Pellentesque mattis proin quis quis.
+    praesent augue elementum diam convallis. Tempus porttitor et id quam risus at. llentesque mattis proin quis quis.
+    praesent augue elementum diam convallis. Tempus porttitor et id quam risus at. Pellentesque mattis proin quis quis.</string>
+
+    <string name="signIn_desc2">We already missed you.</string>
+    <string name="signIn_desc">With Fruit You Can Take Care Of Body \nEspecially Your Skin</string>
+
+    <string name="signUp_desc2">Let\'s Start Our Journey To Health</string>
+    <string name="signUp_desc">If You Know That 70% Of Our Body Is a Water. \nWith Fruitzzz Your Can Keep It Stable</string>
+
+    <string name="nav_open">Open Navigation Drawer</string>
+    <string name="nav_close">Close Navigation Drawer</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="why_fruitz">
+        Fruits are an important menu of daily food because they are rich in nutrients, vitamins, and minerals for the body. Where this is an important thing that we must have or consume every day. Especially during the current COVID-19 pandemic, of course, we must keep our immune system strong, because the immune system can fight viruses or bacteria that can cause disease. Therefore we need to meet our nutritional needs, for example by consuming fruits. Unfortunately, many do not pay attention to how or how much fruit is consumed, whether it is not enough or is it right. Based on this, an application was built, namely fruitzzz which aims to control the fruits consumed.
+    </string>
+
+    <string name="long_text1">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh lorem. Phasellus in erat sed dui commodo porttitor. Ut non ipsum malesuada, iaculis nisl sit amet, aliquet urna. Donec non neque eget mi porttitor ultrices. Pellentesque euismod auctor risus, quis laoreet diam ullamcorper at. Quisque laoreet sem at sapien dignissim tincidunt. Aliquam varius pharetra molestie.
+    </string>
+
+    <string name="long_text2">
+        Nunc volutpat enim non leo luctus commodo. Nam mi elit, volutpat accumsan dolor et, gravida lacinia mi. Integer varius velit sed volutpat dignissim. Proin et volutpat eros, ac vehicula justo. Fusce mi elit, hendrerit eu dapibus ac, lobortis et nibh. Fusce odio quam, vulputate vel odio in, blandit sodales mi. Cras rhoncus a felis non interdum. Aenean venenatis non enim viverra tincidunt. Donec commodo arcu id mauris iaculis pharetra. Ut congue pellentesque blandit. Nam non lobortis enim. Vestibulum iaculis nec felis id rhoncus. Aliquam erat volutpat.
+    </string>
+
+    <string name="long_text3">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh lorem. Phasellus in erat sed dui commodo porttitor. Ut non ipsum malesuada, iaculis nisl sit amet, aliquet urna. Donec non neque eget mi porttitor ultrices. Pellentesque euismod auctor risus, quis laoreet diam ullamcorper at. Quisque laoreet sem at sapien dignissim tincidunt. Aliquam varius pharetra molestie.\n\n
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh lorem. Phasellus in erat sed dui commodo porttitor. Ut non ipsum malesuada, iaculis nisl sit amet, aliquet urna. Donec non neque eget mi porttitor ultrices. Pellentesque euismod auctor risus, quis laoreet diam ullamcorper at. Quisque laoreet sem at sapien dignissim tincidunt. Aliquam varius pharetra molestie.\n\n
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh lorem. Phasellus in erat sed dui commodo porttitor. Ut non ipsum malesuada, iaculis nisl sit amet, aliquet urna. Donec non neque eget mi porttitor ultrices. Pellentesque euismod auctor risus, quis laoreet diam ullamcorper at. Quisque laoreet sem at sapien dignissim tincidunt. Aliquam varius pharetra molestie.\n\n
+    </string>
+</resources>

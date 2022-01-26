@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home" android:title="Home" android:icon="@drawable/icon_home"/>
+        <item android:id="@+id/recipe" android:title="Recipe" android:icon="@drawable/icon_recipe"/>
+        <item android:id="@+id/fruitz" android:title="Fruitzzz" android:icon="@drawable/ic_new_fruit"/>
+        <item android:id="@+id/info" android:title="Info" android:icon="@drawable/icon_info"/>
+        <item android:id="@+id/profile" android:title="Profile" android:icon="@drawable/icon_profile"/>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item android:title="Profile">
+            <menu>
+                <item android:id="@+id/logout" android:title="Log Out" android:icon="@drawable/ic_logout"/>
+                <item android:id="@+id/setting" android:title="Setting" android:icon="@drawable/ic_settings"/>
+                <item android:id="@+id/about" android:title="About" android:icon="@drawable/ic_about_us"/>
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+            <item android:id="@+id/contact" android:title="Contact" android:icon="@drawable/ic_contact"/>
+            <item android:id="@+id/feedback" android:title="Feed Back" android:icon="@drawable/ic_feedback"/>
+        </menu>
+    </item>
+
+</menu>

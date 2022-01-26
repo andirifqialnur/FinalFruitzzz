@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_fruits"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/btn_mangosteen" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/name_fruits"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginTop="70dp"-->
+<!--            android:fontFamily="@font/nunito_extra_bold"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Grape"-->
+<!--            android:textSize="16dp" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/btn_plus"-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_below="@+id/name_fruits"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginHorizontal="35dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="@drawable/ic_icon_btn_plussvg" />-->
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

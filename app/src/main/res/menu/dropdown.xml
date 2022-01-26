@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/notif" android:title="Notification" android:icon="@drawable/ic_notif" app:showAsAction="always"/>
+
+    <item android:id="@+id/profile" android:title="Profile" android:icon="@drawable/icon_profile" />
+    <item android:id="@+id/setting" android:title="Settings" android:icon="@drawable/ic_settings_black"/>
+    <item android:id="@+id/info" android:title="Info" android:icon="@drawable/ic_info_black"/>
+    <item android:id="@+id/logout" android:title="Sign Out" android:icon="@drawable/ic_logout"/>
+
+</menu>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage"
+    android:background="@color/background">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/greeting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/nunito_extra_bold"
+                android:text="Have a Nice Day"
+                android:textSize="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/greeting2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/nunito_regular"
+                android:layout_marginStart="20dp"
+                android:text="Keep tracking your friuts consume"
+                android:textSize="15dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/greeting"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/greetingName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/nunito_regular"
+                android:layout_marginStart="5dp"
+                android:text="User"
+                android:textSize="15dp"
+                app:layout_constraintStart_toEndOf="@id/greeting2"
+                app:layout_constraintTop_toBottomOf="@+id/greeting"
+                tools:ignore="MissingConstraints" />
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/time_back"
+
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/greeting2"
+                tools:ignore="MissingConstraints">
+
+                <TextClock
+                    android:id="@+id/clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/nunito_extra_bold"
+                    android:format12Hour="hh:mm"
+                    android:textColor="@color/white"
+                    android:textSize="35dp"
+                    tools:layout_editor_absoluteX="17dp"
+                    tools:layout_editor_absoluteY="29dp" />
+
+                <TextClock
+                    android:id="@+id/ampm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="28dp"
+                    android:layout_toEndOf="@+id/clock"
+                    android:fontFamily="@font/nunito_extra_bold"
+                    android:format12Hour="a"
+                    android:text="am"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"
+                    tools:layout_editor_absoluteX="17dp"
+                    tools:layout_editor_absoluteY="29dp" />
+
+                <TextClock
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/clock"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="7dp"
+                    android:fontFamily="@font/nunito_regular"
+                    android:text="Sunday, Aug 27"
+                    android:format12Hour="EEEE, MMM d"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/fruitzzz_btn"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="210dp"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="21dp"
+                    android:layout_toRightOf="@+id/clock"
+                    android:background="@drawable/form_back"
+                    android:fontFamily="@font/nunito_bold"
+                    android:text="Let's Fruitzzz"
+                    android:textAllCaps="false"
+                    android:textColor="@color/orange"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/nunito_extra_bold"
+                android:text="Fruit Recipe"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/see_recipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="190dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/nunito_extra_bold"
+                android:text="See All >"
+                android:textColor="@color/orange"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+                tools:ignore="MissingConstraints" />
+
+            <LinearLayout
+                android:id="@+id/recipeee"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@+id/textView">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycle_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp"
+                    android:orientation="horizontal" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/nunito_extra_bold"
+                android:text="Information"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/recipeee"
+                android:layout_marginTop="20dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/see_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="190dp"
+                android:layout_marginEnd="20dp"
+                android:fontFamily="@font/nunito_extra_bold"
+                android:text="See All >"
+                android:textColor="@color/orange"
+                android:textSize="15dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/textView3"
+                app:layout_constraintTop_toBottomOf="@+id/recipeee"
+                android:layout_marginTop="23dp"
+                tools:ignore="MissingConstraints" />
+            <LinearLayout
+                android:id="@+id/info"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/infooo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="20dp"
+                    android:layout_marginBottom="100dp"/>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
